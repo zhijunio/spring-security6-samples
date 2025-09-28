@@ -7,26 +7,6 @@
   "platformAutomerge": true,
   "automerge": true,
   "automergeType": "pr",
-  "ignoreTests": false,
-  "assignees": ["chensoul"],
   "automergeStrategy": "squash",
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest"
-      ],
-      "automerge": true,
-      "automergeType": "pr",
-      "requiredStatusChecks": null
-    },
-    {
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "automerge": false
-    }
-  ]
+  "requiredStatusChecks": null
 }
