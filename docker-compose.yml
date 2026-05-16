@@ -32,7 +32,7 @@ services:
       retries: 10
 
   cas:
-    image: apereo/cas:7.3.6
+    image: apereo/cas:7.3.7
     container_name: cas
     restart: always
     ports:
